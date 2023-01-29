@@ -7,11 +7,8 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.02em;
     font-size: 16px;
-    line-height: 1.5;
 }
 
 /*-------------Header-----------*/
@@ -27,6 +24,10 @@ body {
     color: inherit;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.site-nav {
+    list-style-type: none
 }
 
 .accent-color {
@@ -49,6 +50,10 @@ body {
     color: var(--accent-color)
 }
 
+.mail-tel-list {
+    list-style-type: none
+}
+
 
 .mail-tel .link-mail-tel{
     text-decoration: none;
@@ -66,7 +71,6 @@ body {
 /*---------------Hero---------------*/
 
 .hero .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     color: var(--primary-white-color);
@@ -77,7 +81,6 @@ body {
 
 .hero .hero-btn {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -104,7 +107,9 @@ body {
 
 .features {}
 
-.features-list {}
+.features-list {
+    list-style-type: none
+}
 
 .features-item {}
 
@@ -123,9 +128,6 @@ body {
 /*---------Doing--------------*/
 
 .doing-title {
-   
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -185,6 +187,7 @@ body {
 }
 
 .filter-btn {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
